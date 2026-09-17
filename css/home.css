@@ -4,8 +4,23 @@ body {
     align-items: center;
 }
 
-#header-logo {
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: clamp(100px, 20vw, 250px);
+}
+
+.header img{
     height: 100%;
-    max-width: 250px;
-    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+.header div {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
