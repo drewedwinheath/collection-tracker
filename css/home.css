@@ -9,9 +9,12 @@ body {
     justify-content: center;
     align-items: center;
     
-    width: 100%;
+    width: calc(100% - 20vw);
     height: clamp(100px, 20vw, 250px);
     container-type: size;
+
+    border-bottom: 2px solid black;
+    margin: 0 1vw;
 }
 
 .header img{
